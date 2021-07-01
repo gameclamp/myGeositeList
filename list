@@ -26,10 +26,8 @@
     ]
   },
   {
-    "port": "",
     "inboundTag": [],
     "outboundTag": "proxy",
-    "ip": [],
     "domain": [
       "geosite:category-forums",
       "geosite:category-entertainment",
@@ -38,9 +36,9 @@
       "geosite:google",
       "geosite:wikimedia",
       "geosite:twitter",
-      "geosite:facebook"
-    ],
-    "protocol": []
+      "geosite:facebook",
+      "domain:googleapis.com"
+    ]
   },
   {
     "port": "0-65535",
