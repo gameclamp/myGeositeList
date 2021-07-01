@@ -7,14 +7,6 @@
     ]
   },
   {
-    "inboundTag": [],
-    "outboundTag": "proxy",
-    "domain": [
-      "geosite:category-forums",
-      "geosite:category-entertainment"
-    ]
-  },
-  {
     "outboundTag": "direct",
     "domain": [
       "geosite:cn"
@@ -26,6 +18,18 @@
       "geoip:private",
       "geoip:cn"
     ]
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "geosite:category-forums",
+      "geosite:category-entertainment",
+      "geosite:category-porn"
+    ],
+    "protocol": []
   },
   {
     "outboundTag": "block",
