@@ -7,6 +7,12 @@
     ]
   },
   {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
     "outboundTag": "direct",
     "domain": [
       "geosite:cn"
@@ -27,15 +33,11 @@
     "domain": [
       "geosite:category-forums",
       "geosite:category-entertainment",
-      "geosite:category-porn"
+      "geosite:category-porn",
+      "geosite:google",
+      "geosite:wikimedia"
     ],
     "protocol": []
-  },
-  {
-    "outboundTag": "block",
-    "domain": [
-      "geosite:category-ads-all"
-    ]
   },
   {
     "port": "0-65535",
