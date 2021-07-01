@@ -36,7 +36,9 @@
       "geosite:category-dev",
       "geosite:category-porn",
       "geosite:google",
-      "geosite:wikimedia"
+      "geosite:wikimedia",
+      "geosite:twitter",
+      "geosite:facebook"
     ],
     "protocol": []
   },
