@@ -33,6 +33,7 @@
     "domain": [
       "geosite:category-forums",
       "geosite:category-entertainment",
+      "geosite:category-dev",
       "geosite:category-porn",
       "geosite:google",
       "geosite:wikimedia"
