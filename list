@@ -37,7 +37,10 @@
       "geosite:wikimedia",
       "geosite:twitter",
       "geosite:facebook",
-      "domain:googleapis.com"
+      "domain:ddos-guard.net",
+      "domain:giga-web.jp",
+      "domain:zen-pictures.net",
+      "domain:masquerade.site"
     ]
   },
   {
