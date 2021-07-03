@@ -1,46 +1,35 @@
 [
   {
-    "outboundTag": "direct",
-    "domain": [
-      "domain:example-example.com",
-      "domain:example-example2.com"
-    ]
-  },
-  {
+    "inboundTag": [],
     "outboundTag": "block",
     "domain": [
       "geosite:category-ads-all"
     ]
   },
   {
-    "outboundTag": "direct",
+    "inboundTag": [],
+    "outboundTag": "proxy",
     "domain": [
-      "geosite:cn"
-    ]
-  },
-  {
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:private",
-      "geoip:cn"
+      "geosite:tld-!cn",
+      "geosite:gfw",
+      "geosite:greatfire"
     ]
   },
   {
     "inboundTag": [],
     "outboundTag": "proxy",
     "domain": [
-      "geosite:category-forums",
-      "geosite:category-entertainment",
-      "geosite:category-dev",
-      "geosite:category-porn",
-      "geosite:google",
-      "geosite:wikimedia",
-      "geosite:twitter",
-      "geosite:facebook",
       "domain:ddos-guard.net",
-      "domain:giga-web.jp",
       "domain:zen-pictures.net",
-      "domain:masquerade.site"
+      "domain:masquerade.site",
+      "domain:k2s.cc"
+    ]
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:telegram"
     ]
   },
   {
